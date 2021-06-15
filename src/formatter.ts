@@ -93,7 +93,7 @@ export class Formatter {
                         }
                         command = "\"" + path + "\" " + configFileParameters + '  -y -F "$file" ';
                         command = command.replace('$file', tempFile);
-                        readFile = tempFileOut
+                        readFile = tempFile
                     }
                     
                     console.log(command);
